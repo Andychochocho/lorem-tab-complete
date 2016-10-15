@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Lorem Tab Complete",
+  "description": "Quickly Generate Lorem Ipsum Text by typing 'lorem' and Tab to complete paragraphs!",
+  "version": "1.0",
+  // "default_locale": "en",
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ]
+}
