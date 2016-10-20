@@ -11,7 +11,7 @@
         "<all_urls>"
       ],
       "js": [
-        "script.js"
+        "js/script.js"
       ]
     }
   ]
